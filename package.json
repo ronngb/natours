@@ -24,5 +24,8 @@
     "prettier": "^2.7.1",
     "sass": "^1.55.0",
     "yargs": "^7.1.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.2"
   }
 }

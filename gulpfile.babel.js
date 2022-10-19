@@ -38,7 +38,7 @@ export const styles = () => {
 
 export const serve = (done) => {
   bs.init({
-    proxy: 'http://localhost/web/wordpress55/',
+    proxy: 'http://localhost/web/wordpress52/',
   })
   done()
 }
