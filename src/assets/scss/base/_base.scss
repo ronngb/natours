@@ -1,0 +1,13 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  // NOTE:overide the BG-colot in _variables.scss
+  background-color: #f7f7f7 !important;
+}
+
+ul {
+  padding-left: 0;
+  list-style-type: none;
+}

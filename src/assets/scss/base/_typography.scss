@@ -1,0 +1,33 @@
+.heading-primary {
+  color: #fff;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  margin-bottom: 6rem;
+
+  &--main {
+    display: block;
+    font-size: clamp(4rem, calc(3.28rem + 2.27vw), 6rem);
+    font-weight: 400;
+    letter-spacing: clamp(0.8rem, calc(-0.17rem + 3.07vw), 3.5rem);
+    // animation: 1.5s moveInLeft ease-out;
+
+    // @include respond(phone) {
+    //   letter-spacing: 1rem;
+    //   font-size: 5rem;
+    // }
+  }
+
+  & .textwidget {
+    display: block;
+    // font-size: 2rem;
+    font-size: clamp(1.6rem, calc(1.45rem + 0.45vw), 2rem);
+    font-weight: 700;
+    // letter-spacing: 1.75rem;
+    letter-spacing: clamp(0.4rem, calc(-0.096rem + 1.53vw), 1.75rem);
+    // animation: 1.5s moveInRight ease-out;
+
+    // @include respond(phone) {
+    //   letter-spacing: 0.5rem;
+    // }
+  }
+}
